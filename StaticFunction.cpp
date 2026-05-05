@@ -28,3 +28,5 @@ public:
     };
 };
 
+int Mahasiswa::nim = 0;
+
