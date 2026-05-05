@@ -4,11 +4,10 @@ using namespace std;
 class Mahasiswa { 
 
 public:
-    static int nim; 
-    int id;
+    static int nim;
     string nama;
 
-    
+  
     void setID();
     void printAll();
 
@@ -17,4 +16,7 @@ public:
         setID();
     }
 };
+
+
+int Mahasiswa::nim = 10;
 
