@@ -2,12 +2,12 @@
 using namespace std;
 
 class Mahasiswa { 
-
 public:
-    static int nim;
+    static int nim; 
+    int id;
     string nama;
 
-  
+   
     void setID();
     void printAll();
 
@@ -19,4 +19,9 @@ public:
 
 
 int Mahasiswa::nim = 10;
+
+
+void Mahasiswa::setID() {
+    id = ++nim;
+};
 
